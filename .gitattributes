@@ -1,0 +1,22 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+application-local.properties
