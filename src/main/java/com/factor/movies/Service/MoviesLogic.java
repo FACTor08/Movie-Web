@@ -32,7 +32,7 @@ public class MoviesLogic {
             byte[] image = banner.getBytes();
             byte[] sub = subtitle.getBytes();
             byte[] visuals = movie.getBytes(); // saving "movie file" to cloud storage to be implemented later on
-                                               // uploading movies only as @lob can crash the jvm
+
             String imageType = banner.getContentType();
 
             Movies store = trnsf.transferObj(image, visuals, sub, data, imageType);

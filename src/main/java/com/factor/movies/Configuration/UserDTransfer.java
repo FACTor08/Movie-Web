@@ -3,7 +3,6 @@ package com.factor.movies.Configuration;
 import com.factor.movies.Model.Roles;
 import com.factor.movies.Model.Users;
 import com.factor.movies.Model.UsersDTO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

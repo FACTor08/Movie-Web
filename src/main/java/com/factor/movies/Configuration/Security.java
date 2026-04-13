@@ -1,9 +1,7 @@
 package com.factor.movies.Configuration;
 
-import com.factor.movies.Model.Roles;
 import com.factor.movies.Service.AdminLogic;
 import com.factor.movies.Service.UserLogic;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;

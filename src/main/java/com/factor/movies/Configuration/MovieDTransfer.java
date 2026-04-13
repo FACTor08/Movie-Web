@@ -5,9 +5,6 @@ import com.factor.movies.Model.MoviesDTO;
 import org.springframework.stereotype.Component;
 
 @Component
-//public class scanner(){
-//
-//}
 public class MovieDTransfer {
     public Movies transferObj(byte[] image, byte[] movie, byte[] subtitle, MoviesDTO data,  String banner){
         Movies transfer = new Movies();

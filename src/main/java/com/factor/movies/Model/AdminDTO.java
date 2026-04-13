@@ -1,6 +1,5 @@
 package com.factor.movies.Model;
 
-import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -37,8 +37,6 @@ public class AdminLogic {
         Admin store = trnsf.transferobj(data);
         repo.save(store);
         return "New Admin Successfully Registered";
-// added for development purpose
-
     }
 
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
