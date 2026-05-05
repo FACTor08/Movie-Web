@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @AllArgsConstructor
 @Data
 @Entity
@@ -28,5 +30,5 @@ public class Movies {
     private String title;
 
     @Temporal(TemporalType.DATE)
-    private String year;
+    private Date year;
 }

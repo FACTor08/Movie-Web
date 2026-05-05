@@ -13,7 +13,7 @@ public class MoviesDTO {
 
     private String title;
 
-    private String year;
+    private Date year;
 
 
 }
