@@ -1,4 +1,4 @@
-package com.factor.movies.Model;
+package com.factor.movies.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

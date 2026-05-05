@@ -1,4 +1,4 @@
-package com.factor.movies.Model;
+package com.factor.movies.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +7,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class UsersDTO {
+public class AdminDTO {
 
     private String email;
+    private String firstname;
     private String password;
+    private String phone;
+    private String surname;
     private String username;
 }

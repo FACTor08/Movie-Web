@@ -1,7 +1,7 @@
-package com.factor.movies.Configuration;
+package com.factor.movies.config;
 
-import com.factor.movies.Service.AdminLogic;
-import com.factor.movies.Service.UserLogic;
+import com.factor.movies.service.AdminLogic;
+import com.factor.movies.service.UserLogic;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;

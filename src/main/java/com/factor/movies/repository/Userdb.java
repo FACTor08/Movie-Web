@@ -1,6 +1,6 @@
-package com.factor.movies.Repository;
+package com.factor.movies.repository;
 
-import com.factor.movies.Model.Users;
+import com.factor.movies.entity.Users;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 

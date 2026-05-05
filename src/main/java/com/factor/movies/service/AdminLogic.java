@@ -1,16 +1,15 @@
-package com.factor.movies.Service;
+package com.factor.movies.service;
 
-import com.factor.movies.Configuration.AdminDTransfer;
-import com.factor.movies.Model.Admin;
-import com.factor.movies.Model.AdminDTO;
-import com.factor.movies.Repository.Admindb;
-import com.factor.movies.Repository.Userdb;
+import com.factor.movies.config.AdminDTransfer;
+import com.factor.movies.entity.Admin;
+import com.factor.movies.entity.AdminDTO;
+import com.factor.movies.repository.Admindb;
+import com.factor.movies.repository.Userdb;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;

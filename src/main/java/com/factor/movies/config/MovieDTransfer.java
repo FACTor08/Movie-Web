@@ -1,7 +1,7 @@
-package com.factor.movies.Configuration;
+package com.factor.movies.config;
 
-import com.factor.movies.Model.Movies;
-import com.factor.movies.Model.MoviesDTO;
+import com.factor.movies.entity.Movies;
+import com.factor.movies.entity.MoviesDTO;
 import org.springframework.stereotype.Component;
 
 @Component

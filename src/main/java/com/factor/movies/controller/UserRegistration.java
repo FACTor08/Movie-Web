@@ -1,8 +1,8 @@
-package com.factor.movies.Controller;
+package com.factor.movies.controller;
 
-import com.factor.movies.Model.Users;
-import com.factor.movies.Model.UsersDTO;
-import com.factor.movies.Service.UserLogic;
+import com.factor.movies.entity.Users;
+import com.factor.movies.entity.UsersDTO;
+import com.factor.movies.service.UserLogic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

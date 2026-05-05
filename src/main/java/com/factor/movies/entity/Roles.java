@@ -1,4 +1,4 @@
-package com.factor.movies.Model;
+package com.factor.movies.entity;
 
 public enum Roles {
     ROLE_ADMIN,

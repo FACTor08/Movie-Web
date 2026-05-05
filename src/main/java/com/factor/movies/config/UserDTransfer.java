@@ -1,8 +1,8 @@
-package com.factor.movies.Configuration;
+package com.factor.movies.config;
 
-import com.factor.movies.Model.Roles;
-import com.factor.movies.Model.Users;
-import com.factor.movies.Model.UsersDTO;
+import com.factor.movies.entity.Roles;
+import com.factor.movies.entity.Users;
+import com.factor.movies.entity.UsersDTO;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

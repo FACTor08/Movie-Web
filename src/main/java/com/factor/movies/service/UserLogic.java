@@ -1,9 +1,9 @@
-package com.factor.movies.Service;
+package com.factor.movies.service;
 
-import com.factor.movies.Configuration.UserDTransfer;
-import com.factor.movies.Model.Users;
-import com.factor.movies.Model.UsersDTO;
-import com.factor.movies.Repository.Userdb;
+import com.factor.movies.config.UserDTransfer;
+import com.factor.movies.entity.Users;
+import com.factor.movies.entity.UsersDTO;
+import com.factor.movies.repository.Userdb;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

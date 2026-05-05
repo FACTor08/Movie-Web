@@ -1,9 +1,9 @@
-package com.factor.movies.Service;
+package com.factor.movies.service;
 
-import com.factor.movies.Configuration.MovieDTransfer;
-import com.factor.movies.Model.Movies;
-import com.factor.movies.Model.MoviesDTO;
-import com.factor.movies.Repository.Moviesdb;
+import com.factor.movies.config.MovieDTransfer;
+import com.factor.movies.entity.Movies;
+import com.factor.movies.entity.MoviesDTO;
+import com.factor.movies.repository.Moviesdb;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

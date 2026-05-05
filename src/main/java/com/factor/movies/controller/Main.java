@@ -1,8 +1,8 @@
-package com.factor.movies.Controller;
+package com.factor.movies.controller;
 
-import com.factor.movies.Model.Movies;
-import com.factor.movies.Model.MoviesDTO;
-import com.factor.movies.Service.MoviesLogic;
+import com.factor.movies.entity.Movies;
+import com.factor.movies.entity.MoviesDTO;
+import com.factor.movies.service.MoviesLogic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

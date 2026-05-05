@@ -1,8 +1,8 @@
-package com.factor.movies.Configuration;
+package com.factor.movies.config;
 
-import com.factor.movies.Model.Admin;
-import com.factor.movies.Model.AdminDTO;
-import com.factor.movies.Model.Roles;
+import com.factor.movies.entity.Admin;
+import com.factor.movies.entity.AdminDTO;
+import com.factor.movies.entity.Roles;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

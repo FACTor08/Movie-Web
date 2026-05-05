@@ -1,8 +1,8 @@
-package com.factor.movies.Controller;
+package com.factor.movies.controller;
 
-import com.factor.movies.Model.Admin;
-import com.factor.movies.Model.AdminDTO;
-import com.factor.movies.Service.AdminLogic;
+import com.factor.movies.entity.Admin;
+import com.factor.movies.entity.AdminDTO;
+import com.factor.movies.service.AdminLogic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

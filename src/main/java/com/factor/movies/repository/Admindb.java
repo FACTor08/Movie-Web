@@ -1,6 +1,6 @@
-package com.factor.movies.Repository;
+package com.factor.movies.repository;
 
-import com.factor.movies.Model.Admin;
+import com.factor.movies.entity.Admin;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
