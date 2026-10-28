@@ -15,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 @RequiredArgsConstructor
 @Service
@@ -78,11 +79,14 @@ public class MoviesLogic {
             log.warn("Upload failed: no image file was uploaded");
             throw new IllegalArgumentException("no movie image");
         }
-        if (!List.of("image/jpeg", "image/png").contains(movieImage.getContentType())) {
+        log.info("initiating {} upload to cloudinary ", movieImage.getOriginalFilename());
+        String imageName = movieImage.getOriginalFilename();
+        if (!List.of("image/jpeg", "image/png").contains(movieImage.getContentType()) &&
+                !Objects.requireNonNull(imageName).toLowerCase().endsWith(".jfif")) {
             log.error("Unsupported image format: {}", movieImage.getContentType());
             throw new IllegalArgumentException("image file not supported");
         }
-        log.info("Uploading image to cloudinary: {}", movieImage.getOriginalFilename());
+        log.info("Uploading {} to cloudinary", movieImage.getOriginalFilename());
             Map<String, Object> imageFinal = cloudinary.uploader().upload(movieImage.getBytes(), ObjectUtils.asMap(
                     "resource_type", "image",
                     "folder", "movies/image"
