@@ -1,4 +1,4 @@
-package com.factor.movies.entity;
+package com.factor.movies.Admin;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,6 +13,6 @@ public class AdminDTO {
     private String firstname;
     private String password;
     private String phone;
-    private String surname;
+    private String lastname;
     private String username;
 }
